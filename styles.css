@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+body {
+  font-family: Mulish, sans-serif;
+  margin: 0;
+}
+
+#hero-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #edf6f9;
+  text-shadow: 0px 0px 5px black;
+}
+
+#hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/hero.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+h3 {
+  text-align: center;
+  background: #eae0d5;
+  padding: 20px;
+  margin: 0;
+}
+
+#activity-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background: #a5a58d;
+  padding-bottom: 15px;
+}
+
+.activity {
+  text-align: center;
+  color: #edf6f9;
+  text-shadow: 0px 0px 5px black;
+  max-width: 250px;
+  padding: 10px;
+  width: 90vw;
+  overflow: scroll;
+}
+
+.activity img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #6b705c;
+  border-radius: 50%;
+}
+
+.activity img:hover {
+  border: 3px solid #b0c4b1;
+}
+
+#guide-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eae0d5;
+  padding-bottom: 30px;
+}
+
+#guide-wrapper img {
+  width: 200px;
+  border: 3px solid #184e77;
+  border-radius: 10px;
+  margin-top: 5px;
+}
